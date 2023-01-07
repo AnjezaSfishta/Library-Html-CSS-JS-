@@ -1,0 +1,129 @@
+.nav{
+    /* display: flex; */
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px .5px 20px grey; 
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.name{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+ul > li >a {
+    text-decoration: none;
+}
+.search-bar{
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    justify-content: center;
+    display: inline-block;
+    width: 80vw;
+    height: 10vh;
+    background-color: rgba(223, 223, 223,0.5);
+    padding: 20px;
+    /* border: 0.5px solid black; */
+    border-radius: 50px;
+    box-shadow: 0px 3px 20px grey;
+}
+
+.search-bar > .col-lg-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text{
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    bottom: 8px;
+    z-index: 0;
+    border-radius: 30px;
+    left: 15px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.submit-btn{
+    height: 30px;
+    position: relative;
+    bottom: 9px;
+    right: 25px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.booksrow1{
+    position: relative;
+    top: 300px;
+}
+.kategorite{
+    width: 15vw;
+    height: 30px;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.card{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 250px;
+    position: relative;
+    right: 40px;
+    border-radius: 15px;
+    box-shadow: 0.5px 1.5px 10px grey;
+}
+
+.booksrow2{
+    position: relative;
+    top: 400px;
+}
+
+.selection{
+    font-size: 20px;
+}
+
+div.selection > a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+ul > li > a{
+    color: black;
+}
+
+.padding{
+    padding: 20px;
+}
+
+img{
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    height: 350px;
+}
