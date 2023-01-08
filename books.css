@@ -1,3 +1,7 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
 .nav{
     /* display: flex; */
     align-items: center;
@@ -78,24 +82,41 @@ ul > li >a {
     position: relative;
     top: 300px;
 }
-.kategorite{
-    width: 15vw;
-    height: 30px;
-    font-size: 20px;
-    display: inline-flex;
-    justify-content: flex-end;
+a.kategori{
+    display: inline;
+}
+.kategori{
+    border-bottom: 1px solid red;
+    display: inline;
+    padding: 0px 20px;
+}
+.kategori:hover {
+    color: grey;
+    border-bottom: 2px solid red;
+    font-size: 23px;
+    transition: 0.2s all;
+    display: flex;
+    flex-direction: column;
 }
 
 .card{
     display: inline-flex;
     justify-content: space-around;
-    width: 250px;
+    width: 270px;
     position: relative;
     right: 40px;
     border-radius: 15px;
     box-shadow: 0.5px 1.5px 10px grey;
 }
 
+.card-text > a{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
 .booksrow2{
     position: relative;
     top: 400px;
@@ -110,10 +131,14 @@ div.selection > a{
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
     margin-bottom: 15px;
 }
-
+div.selection > .row > a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
 ul > li > a{
     color: black;
 }
@@ -121,9 +146,50 @@ ul > li > a{
 .padding{
     padding: 20px;
 }
+.padding > a{
+    justify-content: space-between;
+}
 
 img{
     border-top-left-radius:15px ;
     border-top-right-radius:15px ;
     height: 350px;
+}
+
+.action{
+    border-bottom: 1px solid black;
+}
+
+.footer{
+    position: relative;
+    top: 70vh;
+    padding: 20px;
+    margin: 0px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 20px black; 
+}
+
+span{
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    top: 25%;
+    height: fit-content;
+    float: left;
+}
+.infos{
+    padding: 0px 100px;
+    display: block;
+}
+span.social-medias{
+    justify-content: space-around;
+    float: left;
+    padding-right: 300px;
+    padding-top: 20px;
+}
+
+.social-medias > a{
+    font-size: 40px;    
+    align-items: center;
 }
