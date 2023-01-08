@@ -173,7 +173,7 @@ span{
     width: 50%;
     position: relative;
     top: 25%;
-    height: fit-content;
+    height: fit-content; 
     float: left;
 }
 .infos{
