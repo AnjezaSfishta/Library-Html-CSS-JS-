@@ -13,6 +13,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="books.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="books.js"></script>
 </head>
 
 <body>
@@ -23,26 +24,22 @@
             </div>
             <div class="icons col-lg-9">
                 <ul style="list-style: none;">
-                    <li>
+                    <li class="listat">
                         <i class="fa fa-solid fa-circle"></i>
                         <a href="">Home</a>
                     </li>
 
-                    <li>
+                    <li class="listat">
                         <i class="fa fa-sharp fa-solid fa-book"></i>
                         <a href="">Books</a>
                     </li>
-                    <li>
-                        <i class="fa fa-solid fa-bars"></i>
+                    <li class="listat">
+                        <i class="fa fa-solid fa-user"></i>
                         <a href="">Authors</a>
                     </li>
-                    <li>
-                        <i class="fa fa-solid fa-plus"></i>
-                        <a href="">Give a book</a>
-                    </li>
-                    <li>
+                    <li class="listat">
                         <i class="fa fa-solid fa-user-plus"></i>
-                        <a href="">Log in</a>
+                        <a href="login.html">Log in</a>
                     </li>
                 </ul>
             </div>
@@ -55,14 +52,31 @@
         </div>
         <div class="row booksrow1">
             <div class="selection col-lg-3">
-                <a class="text-muted" href="#">Me te lexuarit</a>
-                <a class="text-muted" href="#">Me te rinje</a>
-                <a class="text-muted" href="#">Shqip</a>
-                <a class="text-muted" href="#">Novel</a>
-                <a class="text-muted" href="#">Aventure</a>
-                <a class="text-muted" href="#">Mister</a>
-                <a class="text-muted" href="#">Krim</a>
-                <a class="text-muted" href="#">Fantazi</a>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Me te lexuarit</a>
+                </div>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Me te rinje</a>
+                </div>
+
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Shqip</a>
+                </div>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Novel</a>
+                </div>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Aventure</a>
+                </div>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Mister</a>
+                </div>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Krim</a>
+                </div>
+                <div class="row-a">
+                    <a class="kategori text-muted" href="#">Fantazi</a>
+                </div>
             </div>
             <div class="col-lg-3">
                 <div class="card novel">
@@ -71,7 +85,9 @@
                         <h5>Babel</h5>
                     </div>
                     <div class="padding card-text">
-                        <a class="btn btn-outline-info" href="">Read More</a>
+                        <p>Autori: <i><u>R. F. Kuang</u></i></p>
+                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +98,9 @@
                         <h5>Honey and Spice</h5>
                     </div>
                     <div class="padding card-text">
-                        <a class="btn btn-outline-info" href="">Read More</a>
+                        <p>Autori: <i><u>Bolu Babalola</u></i></p>
+                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -93,7 +111,9 @@
                         <h5>Sherlock Holmes</h5>
                     </div>
                     <div class=" padding card-text">
-                        <a class="btn btn-outline-info" href="">Read More</a>
+                        <p>Autori: <i><u>Arthur Conan Doyle</u></i></p>
+                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +127,9 @@
                         <h5>The fault in our stars</h5>
                     </div>
                     <div class="padding card-text">
-                        <a class="btn btn-outline-info" href="">Read More</a>
+                        <p>Autori: <i><u>John Green</u></i></p>
+                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +140,9 @@
                         <h5>The Call of the Wild</h5>
                     </div>
                     <div class="padding card-text">
-                        <a class="btn btn-outline-info" href="">Read More</a>
+                        <p>Autori: <i><u>Jack London</u></i></p>
+                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -129,13 +153,27 @@
                         <h5>Game of Thrones</h5>
                     </div>
                     <div class="padding card-text">
-                        <a class="btn btn-outline-info" href="">Read More</a>
+                        <p>Autori: <i><u>Gorge R. R. Martin</u></i></p>
+                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="height: 20px;" class="footer">
-            <div class="col-lg-12"></div>
+        <div style="height: 200px; width: 100%;" class="footer">
+            <span class="infos">
+                <h5 class="title"><b>LIBRARIA ONLINE</b></h5>
+                <p>
+                    Rr.Bill Clinton, 28. <br>
+                    Prishtine 10000 <br>
+                    Nr.tel +383 49 750 875
+                </p>
+            </span>
+            <span class="social-medias">
+                <a title="Facebook" href=""><i class="fa fa-brands fa-facebook"></i></a>
+                <a title="Instagram" href=""><i class="fa fa-brands fa-instagram"></i></a>
+                <a title="Twitter" href=""><i class="fa fa-brands fa-twitter"></i></a>
+            </span>
         </div>
     </div>
 
