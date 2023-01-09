@@ -11,6 +11,15 @@ body{
     position: fixed;
     width: 100%;
     z-index: 2;
+    background-color: aliceblue;
+}
+
+.listat > a:hover{
+    color: black;
+    border-bottom: 2px solid blue;
+    text-decoration: none;
+    font-size: 23px;
+    transition: all 0.05s;
 }
 .name{
     display: inline-flex;
@@ -44,9 +53,9 @@ ul > li >a {
     height: 10vh;
     background-color: rgba(223, 223, 223,0.5);
     padding: 20px;
-    /* border: 0.5px solid black; */
     border-radius: 50px;
     box-shadow: 0px 3px 20px grey;
+    z-index: 1;
 }
 
 .search-bar > .col-lg-12{
@@ -86,13 +95,14 @@ a.kategori{
     display: inline;
 }
 .kategori{
-    border-bottom: 1px solid red;
+    text-decoration: none;
+    border-bottom: 1px solid grey;
     display: inline;
     padding: 0px 20px;
 }
 .kategori:hover {
     color: grey;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid blue;
     font-size: 23px;
     transition: 0.2s all;
     display: flex;
@@ -124,6 +134,11 @@ a.kategori{
 
 .selection{
     font-size: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
 }
 
 div.selection > a{
@@ -146,8 +161,8 @@ ul > li > a{
 .padding{
     padding: 20px;
 }
-.padding > a{
-    justify-content: space-between;
+.padding:last-child{
+    margin-left: 7px ;
 }
 
 img{

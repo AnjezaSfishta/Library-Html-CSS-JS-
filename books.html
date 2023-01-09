@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="books.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="books.js"></script>
+    <script src="jquery-3.6.1.min.js"></script>
 </head>
 
 <body>
@@ -26,20 +27,20 @@
                 <ul style="list-style: none;">
                     <li class="listat">
                         <i class="fa fa-solid fa-circle"></i>
-                        <a href="">Home</a>
+                        <a href="">Ballina</a>
                     </li>
 
                     <li class="listat">
                         <i class="fa fa-sharp fa-solid fa-book"></i>
-                        <a href="">Books</a>
+                        <a href="">Librat</a>
                     </li>
                     <li class="listat">
                         <i class="fa fa-solid fa-user"></i>
-                        <a href="">Authors</a>
+                        <a href="">Autorët</a>
                     </li>
                     <li class="listat">
                         <i class="fa fa-solid fa-user-plus"></i>
-                        <a href="Login_form.html">Log in</a>
+                        <a href="Login_form.html">Kyçu</a>
                     </li>
                 </ul>
             </div>
@@ -53,20 +54,20 @@
         <div class="row booksrow1">
             <div class="selection col-lg-3">
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Me te lexuarit</a>
+                    <a class="kategori text-muted" href="#">Më të lexuarit</a>
                 </div>
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Me te rinje</a>
+                    <a class="kategori text-muted" href="#">Më të rinjë</a>
                 </div>
 
                 <div class="row-a">
                     <a class="kategori text-muted" href="#">Shqip</a>
                 </div>
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Novel</a>
+                    <a class="kategori text-muted" href="#">Novelë</a>
                 </div>
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Aventure</a>
+                    <a class="kategori text-muted" href="#">Aventurë</a>
                 </div>
                 <div class="row-a">
                     <a class="kategori text-muted" href="#">Mister</a>
@@ -80,14 +81,14 @@
             </div>
             <div class="col-lg-3">
                 <div class="card novel">
-                    <img src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
-                    <div class="padding card-title">
+                    <img class="js" src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
+                    <div class="js padding card-title">
                         <h5>Babel</h5>
                     </div>
-                    <div class="padding card-text">
-                        <p>Autori: <i><u>R. F. Kuang</u></i></p>
-                        <a class="btn btn-success" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                    <div class=" js padding card-text">
+                        <p class="js">Autori: <i><u>R. F. Kuang</u></i></p>
+                        <a class="js btn btn-outline-primary" href="">Read More</a>
+                        <a class="js btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@
                     </div>
                     <div class="padding card-text">
                         <p>Autori: <i><u>Bolu Babalola</u></i></p>
-                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
@@ -112,7 +113,7 @@
                     </div>
                     <div class=" padding card-text">
                         <p>Autori: <i><u>Arthur Conan Doyle</u></i></p>
-                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
@@ -121,14 +122,14 @@
         <div class="booksrow2 row">
             <div class="col-lg-3"></div>
             <div class="col-lg-3">
-                <div class="card novel">
+                <div onmouseenter="mouseenter()" class="card novel">
                     <img src="./images/the fault in our stars.jpg" alt="Libri 'The fault in our stars' nga John Green">
                     <div class="padding card-title">
                         <h5>The fault in our stars</h5>
                     </div>
                     <div class="padding card-text">
                         <p>Autori: <i><u>John Green</u></i></p>
-                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
@@ -141,7 +142,7 @@
                     </div>
                     <div class="padding card-text">
                         <p>Autori: <i><u>Jack London</u></i></p>
-                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
@@ -154,7 +155,7 @@
                     </div>
                     <div class="padding card-text">
                         <p>Autori: <i><u>Gorge R. R. Martin</u></i></p>
-                        <a class="btn btn-success" href="">Read More</a>
+                        <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
