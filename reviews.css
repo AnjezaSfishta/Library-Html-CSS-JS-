@@ -1,0 +1,39 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:ital,wght@1,100&display=swap'); 
+
+
+ *>*{
+    font-family: 'Poppins'sans-serif;
+ }
+
+
+ :root{
+    --color-dark: #151c35;
+    --color-secondary-dark:#464C70;
+    --color-primary: #EE709D;
+    --color-text:#8297E2;
+    --color-light:#EBEBFB;
+
+ }
+
+ .container{
+    height: 98vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+ }
+
+ .board{
+    max-width: 987px;
+    width: 100%;
+    background-color: var(--color-dark);
+    text-align: center;
+    border-radius: 8px;
+    padding: 4em 0;
+ }
+
+ .text-light{
+    color:var(--color-light);
+ }
