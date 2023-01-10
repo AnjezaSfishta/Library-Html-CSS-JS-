@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="books.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="books.js"></script>
-    <script src="jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -80,15 +80,17 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card novel">
-                    <img class="js" src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
-                    <div class="js padding card-title">
+                <div onmouseenter="mbiKarte(this)"
+                onmouseleave="jashtKarte(this)"  class="card novel">
+                    <img src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
+                    <div class="padding card-title">
                         <h5>Babel</h5>
+                        <p>Autori: <i><u>R. F. Kuang</u></i></p>
                     </div>
-                    <div class=" js padding card-text">
-                        <p class="js">Autori: <i><u>R. F. Kuang</u></i></p>
-                        <a class="js btn btn-outline-primary" href="">Read More</a>
-                        <a class="js btn btn-warning" href="#">Add to cart</a>
+                    <div class="padding card-text">
+                        <h5>13.49 Eur</h5>
+                        <a class="btn btn-outline-primary" href="">Read More</a>
+                        <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -96,10 +98,11 @@
                 <div class="card novel">
                     <img src="./images/honey and spice.png" alt="Libri 'Honey and Spice' nga Bolu Babalola">
                     <div class="padding card-title">
-                        <h5>Honey and Spice</h5>
+                        <h5>Honey and Spice</h5>                        
+                        <p>Autori: <i><u>Bolu Babalola</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>Bolu Babalola</u></i></p>
+                        <h5>15.99 Eur</h5>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -110,9 +113,10 @@
                     <img src="./images/sherlock.png" alt="Libri 'Sherock Holmes' nga Arthur Conan Doyle">
                     <div class=" padding card-title">
                         <h5>Sherlock Holmes</h5>
+                        <p>Autori: <i><u>Arthur Conan Doyle</u></i></p>
                     </div>
                     <div class=" padding card-text">
-                        <p>Autori: <i><u>Arthur Conan Doyle</u></i></p>
+                        <h5>22.99 Eur</h5>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -122,13 +126,14 @@
         <div class="booksrow2 row">
             <div class="col-lg-3"></div>
             <div class="col-lg-3">
-                <div onmouseenter="mouseenter()" class="card novel">
+                <div class="card novel">
                     <img src="./images/the fault in our stars.jpg" alt="Libri 'The fault in our stars' nga John Green">
                     <div class="padding card-title">
                         <h5>The fault in our stars</h5>
+                        <p>Autori: <i><u>John Green</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>John Green</u></i></p>
+                        <h5>7.99 Eur</h5>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -139,9 +144,10 @@
                     <img src="./images/the call of wild.jpg" alt="Libri 'The Call of the Wild' nga Bolu Babalola">
                     <div class="padding card-title">
                         <h5>The Call of the Wild</h5>
+                        <p>Autori: <i><u>Jack London</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>Jack London</u></i></p>
+                        <h5>12.99 Eur</h5>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -152,9 +158,10 @@
                     <img src="./images/goth.jpg" alt="Libri 'Game of Thrones' nga Arthur Conan Doyle">
                     <div class="padding card-title">
                         <h5>Game of Thrones</h5>
+                        <p>Autori: <i><u>Gorge R. R. Martin</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>Gorge R. R. Martin</u></i></p>
+                        <h5>12.75 Eur</h5>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -165,7 +172,7 @@
             <span class="infos">
                 <h5 class="title"><b>LIBRARIA ONLINE</b></h5>
                 <p>
-                    Rr.Bill Clinton, 28. <br>
+                    Rr.Bill Clinton, 28 <br>
                     Prishtine 10000 <br>
                     Nr.tel +383 49 750 875
                 </p>
@@ -177,7 +184,6 @@
             </span>
         </div>
     </div>
-
 
 </body>
 
