@@ -14,3 +14,24 @@
     right: 0;
     bottom: 0;
 }
+.carousel-inner .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 37%;
+    left: 0;
+    right: 0;
+}
+.carousel-inner .carousel-item span{
+    color: var(--bs-orange);
+}
+.carousel-inner .carousel-caption h2{
+    color: #fff;
+    margin-bottom: 7px;
+    font-size: 42px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0px auto 30px auto;
+}
