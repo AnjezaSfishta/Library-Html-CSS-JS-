@@ -33,6 +33,14 @@
     margin-top: 10px;
 
 }
+.reviews .review_box  .review_card i{
+    float:right;
+    font-size: 110px;
+    position: relative;
+    bottom:20px;
+    color:#eaeaea;
+
+}
 
 .reviews .review_box  .review_card .card_top img{
     width:80px;
@@ -48,11 +56,4 @@
     padding:0 1px;
 }
 
-.reviews .review_box  .review_card i{
-    float:right;
-    font-size: 110px;
-    position: relative;
-    bottom:20px;
-    color:#eaeaea;
 
-}
