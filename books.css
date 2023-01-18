@@ -206,3 +206,16 @@ span.social-medias{
     font-size: 40px;    
     align-items: center;
 }
+
+.social-medias > .social-medias-text {
+    font-size: 30px;
+    align-items: center;
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(25, 115, 215);
+}
+
+span.quantity {
+    float: right;
+    
+}

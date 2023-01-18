@@ -80,8 +80,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div onmouseenter="mbiKarte(this)"
-                onmouseleave="jashtKarte(this)"  class="card novel">
+                <div class="card novel">
                     <img src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
                     <div class="padding card-title">
                         <h5>Babel</h5>
@@ -89,8 +88,9 @@
                     </div>
                     <div class="padding card-text">
                         <h5>13.49 Eur</h5>
+                        <p>Sasia: <span class="quantity" id="count1"><b>10</b></span></p>
                         <a class="btn btn-outline-primary" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                        <a onclick="addToCardOnClick()" class="btn btn-warning" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -103,6 +103,7 @@
                     </div>
                     <div class="padding card-text">
                         <h5>15.99 Eur</h5>
+                        <p>Sasia: <span class="quantity" id="count2"><b>6</b></span></p>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -117,6 +118,7 @@
                     </div>
                     <div class=" padding card-text">
                         <h5>22.99 Eur</h5>
+                        <p>Sasia: <span class="quantity" id="count3"><b>17</b></span></p>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -134,6 +136,7 @@
                     </div>
                     <div class="padding card-text">
                         <h5>7.99 Eur</h5>
+                        <p>Sasia: <span class="quantity" id="coun4"><b>2</b></span></p>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -148,6 +151,7 @@
                     </div>
                     <div class="padding card-text">
                         <h5>12.99 Eur</h5>
+                        <p>Sasia: <span class="quantity" id="count5"><b>13</b></span></p>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -162,6 +166,7 @@
                     </div>
                     <div class="padding card-text">
                         <h5>12.75 Eur</h5>
+                        <p>Sasia: <span class="quantity" id="count6"><b>12</b></span></p>
                         <a class="btn btn-outline-primary" href="">Read More</a>
                         <a class="btn btn-warning" href="#">Add to cart</a>
                     </div>
@@ -178,9 +183,18 @@
                 </p>
             </span>
             <span class="social-medias">
-                <a title="Facebook" href=""><i class="fa fa-brands fa-facebook"></i></a>
-                <a title="Instagram" href=""><i class="fa fa-brands fa-instagram"></i></a>
-                <a title="Twitter" href=""><i class="fa fa-brands fa-twitter"></i></a>
+                <a title="Facebook" href="https://facebook.com">
+                    <i class="fa fa-brands fa-facebook"></i>
+                    <a class="social-medias-text" href="https://facebook.com">Facebook</a>
+                </a>
+                <a title="Instagram" href="https://instagram.com">
+                    <i class="fa fa-brands fa-instagram"></i>
+                    <a class="social-medias-text" href="https://instagram.com">Instagram</a>
+                </a>
+                <a title="Twitter" href="https://twitter.com">
+                    <i class="fa fa-brands fa-twitter"></i>
+                    <a class="social-medias-text" href="https://twitter.com">Twitter</a>
+                </a>
             </span>
         </div>
     </div>
