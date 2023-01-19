@@ -174,11 +174,11 @@ img{
 .footer{
     width: 100%;
     position: relative;
-    top: 70vh;
+    top: 65vh;
     padding: 20px;
     margin: 0px;
     background-color: aliceblue;
-    box-shadow: 0px 0px 20px black; 
+    box-shadow: 0px 0.5px 20px grey; 
 }
 
 span{
