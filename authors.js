@@ -3,4 +3,17 @@ $(()=>{
     $("input#btn1").on('click',()=>{
         $('p#par1').show(500);
     })
+    $("p#par2").hide()
+    $("input#btn2").on('click',()=>{
+        $('p#par2').show(500);
+    })
+    $("p#par3").hide()
+    $("input#btn3").on('click',()=>{
+        $('p#par3').show(500);
+    })
+    $("p#par4").hide()
+    $("input#btn4").on('click',()=>{
+        $('p#par4').show(500);
+    })
 })
+
