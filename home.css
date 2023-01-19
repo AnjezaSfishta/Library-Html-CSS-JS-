@@ -18,6 +18,7 @@ body{
 }
 
 .listat > a:hover{
+    display: inline-block;
     color: black;
     display: inline-block;
     border-bottom: 2px solid blue;
@@ -46,26 +47,6 @@ ul{
 
 ul > li >a {
     text-decoration: none;
-}
-.search-bar{
-    position: relative;
-    top: 20vh;
-    left: 10vw;
-    justify-content: center;
-    display: inline-block;
-    width: 80vw;
-    height: 10vh;
-    background-color: aliceblue;
-    padding: 20px;
-    border-radius: 50px;
-    box-shadow: 0px 3px 20px grey;
-    z-index: 1;
-}
-
-.search-bar > .col-lg-12{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .carousel-inner .carousel-item{
     width: 100%;
@@ -138,16 +119,21 @@ ul > li >a {
     margin: 20px;
     width: 81%;
 }
-
+.pjesa-2 .pjesa-2-img{
+    margin: 20px;
+}
 .pjesa-2 .pjesa-2-content p{
     font-size: 33.33px;
     color: black;
     font-family: Aachenn;
     width: 81%;
     margin: 20px;
+<<<<<<< HEAD
 }
 .pjesa-2 .pjesa-2-img{
     margin: 20px;
+=======
+>>>>>>> d26a26afdb0d6f451e24755dcd2d9870eca97c40
 }
 
 .home{
