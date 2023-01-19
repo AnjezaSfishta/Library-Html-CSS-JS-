@@ -3,7 +3,6 @@ body{
     margin: 0px;
 }
 .nav{
-    /* display: flex; */
     align-items: center;
     background-color: white;
     box-shadow: 0px .5px 20px grey; 
@@ -51,7 +50,7 @@ ul > li >a {
     display: inline-block;
     width: 80vw;
     height: 10vh;
-    background-color: rgba(223, 223, 223,0.5);
+    background-color: aliceblue;
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0px 3px 20px grey;
@@ -196,10 +195,11 @@ span{
     display: block;
 }
 span.social-medias{
-    justify-content: space-around;
+    justify-content: space-between;
     float: left;
     padding-right: 300px;
     padding-top: 20px;
+
 }
 
 .social-medias > a{
@@ -210,12 +210,21 @@ span.social-medias{
 .social-medias > .social-medias-text {
     font-size: 30px;
     align-items: center;
-    margin-right: 15px;
+    margin: 0px 15px;
     text-decoration: none;
     color: rgb(25, 115, 215);
 }
 
-span.quantity {
-    float: right;
-    
+.quantity {
+    display: inline-block;
+}
+
+.sas{
+    margin-right: 100px;
+}
+
+.sold{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
 }
