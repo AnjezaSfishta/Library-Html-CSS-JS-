@@ -59,3 +59,20 @@
     margin-top: 15px;
     cursor: pointer ;
 }
+.pjesa-2{
+    padding: 50px 0 200px 0;
+}
+.pjesa-2 .pjesa-2-content h2{
+    font-size: 50.02px;
+    color: black;
+    font-family: Aachenn;
+    margin: auto;
+    width: 81%;
+}
+.pjesa-2 .pjesa-2-content p{
+    font-size: 33.33px;
+    color: black;
+    font-family: Aachenn;
+    width: 81%;
+    margin: auto;
+}
