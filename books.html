@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="books.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="books.js"></script>
-    <script src="jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -27,16 +27,16 @@
                 <ul style="list-style: none;">
                     <li class="listat">
                         <i class="fa fa-solid fa-circle"></i>
-                        <a href="">Ballina</a>
+                        <a href="home.html">Ballina</a>
                     </li>
 
                     <li class="listat">
                         <i class="fa fa-sharp fa-solid fa-book"></i>
-                        <a href="">Librat</a>
+                        <a href="books.html">Librat</a>
                     </li>
                     <li class="listat">
                         <i class="fa fa-solid fa-user"></i>
-                        <a href="">Autorët</a>
+                        <a href="authors.html">Autorët</a>
                     </li>
                     <li class="listat">
                         <i class="fa fa-solid fa-user-plus"></i>
@@ -54,26 +54,26 @@
         <div class="row booksrow1">
             <div class="selection col-lg-3">
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Më të lexuarit</a>
+                    <a class="kategori text-muted" href="books.html">Më të lexuarit</a>
                 </div>
                 <div class="row-a">
                     <a class="kategori text-muted" href="#">Më të rinjë</a>
                 </div>
 
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Shqip</a>
+                    <a class="kategori text-muted" href="./booksCategory/shqip.html">Shqip</a>
                 </div>
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Novelë</a>
+                    <a class="kategori text-muted" href="./booksCategory/Novele.html">Novelë</a>
                 </div>
                 <div class="row-a">
                     <a class="kategori text-muted" href="#">Aventurë</a>
                 </div>
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Mister</a>
+                    <a class="kategori text-muted" href="./booksCategory/mister.html">Mister</a>
                 </div>
                 <div class="row-a">
-                    <a class="kategori text-muted" href="#">Krim</a>
+                    <a class="kategori text-muted" href="./booksCategory/krim.html">Krim</a>
                 </div>
                 <div class="row-a">
                     <a class="kategori text-muted" href="#">Fantazi</a>
@@ -81,14 +81,18 @@
             </div>
             <div class="col-lg-3">
                 <div class="card novel">
-                    <img class="js" src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
-                    <div class="js padding card-title">
+                    <img src="./images/Babel .png" alt="Libri 'Babel' nga R. F. Kuang">
+                    <div class="padding card-title">
                         <h5>Babel</h5>
+                        <p>Autori: <i><u>R. F. Kuang</u></i></p>
                     </div>
-                    <div class=" js padding card-text">
-                        <p class="js">Autori: <i><u>R. F. Kuang</u></i></p>
-                        <a class="js btn btn-outline-primary" href="">Read More</a>
-                        <a class="js btn btn-warning" href="#">Add to cart</a>
+                    <div class="padding card-text">
+                        <h5>13.49 Eur</h5>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas" id="sasia1">11</p>
+                        <p class="quantity sold" id="soldText1"></p>
+                        <button type="button" class="btn btn-outline-primary" href="">Read More</button>
+                        <button type="button" onclick="addToCard1()" class="btn btn-warning">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -96,12 +100,16 @@
                 <div class="card novel">
                     <img src="./images/honey and spice.png" alt="Libri 'Honey and Spice' nga Bolu Babalola">
                     <div class="padding card-title">
-                        <h5>Honey and Spice</h5>
+                        <h5>Honey and Spice</h5>                        
+                        <p>Autori: <i><u>Bolu Babalola</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>Bolu Babalola</u></i></p>
-                        <a class="btn btn-outline-primary" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                        <h5>15.99 Eur</h5>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas" id="sasia2">10</p>
+                        <p class="quantity sold" id="soldText2"></p>
+                        <button type="button" class="btn btn-outline-primary" href="">Read More</button>
+                        <button type="button" onclick="addToCard2()" class="btn btn-warning">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -110,11 +118,15 @@
                     <img src="./images/sherlock.png" alt="Libri 'Sherock Holmes' nga Arthur Conan Doyle">
                     <div class=" padding card-title">
                         <h5>Sherlock Holmes</h5>
+                        <p>Autori: <i><u>Arthur Conan Doyle</u></i></p>
                     </div>
                     <div class=" padding card-text">
-                        <p>Autori: <i><u>Arthur Conan Doyle</u></i></p>
-                        <a class="btn btn-outline-primary" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                        <h5>22.99 Eur</h5>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas"  id="sasia3">7</p>
+                        <p class="quantity sold" id="soldText3"></p>
+                        <button type="button" class="btn btn-outline-primary" href="">Read More</button>
+                        <button type="button" onclick="addToCard3()" class="btn btn-warning">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -122,15 +134,19 @@
         <div class="booksrow2 row">
             <div class="col-lg-3"></div>
             <div class="col-lg-3">
-                <div onmouseenter="mouseenter()" class="card novel">
+                <div class="card novel">
                     <img src="./images/the fault in our stars.jpg" alt="Libri 'The fault in our stars' nga John Green">
                     <div class="padding card-title">
                         <h5>The fault in our stars</h5>
+                        <p>Autori: <i><u>John Green</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>John Green</u></i></p>
-                        <a class="btn btn-outline-primary" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                        <h5>7.99 Eur</h5>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas"  id="sasia4">12</p>
+                        <p class="quantity sold"id="soldText4"></p>
+                        <button type="button" class="btn btn-outline-primary" href="">Read More</button>
+                        <button type="button" id="add4" onclick="addToCard4()" class="btn btn-warning">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -139,11 +155,15 @@
                     <img src="./images/the call of wild.jpg" alt="Libri 'The Call of the Wild' nga Bolu Babalola">
                     <div class="padding card-title">
                         <h5>The Call of the Wild</h5>
+                        <p>Autori: <i><u>Jack London</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>Jack London</u></i></p>
-                        <a class="btn btn-outline-primary" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                        <h5>12.99 Eur</h5>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas"  id="sasia5">4</p>
+                        <p id="soldText5" class="quantity sold"></p>
+                        <button type="button" class="btn btn-outline-primary" href="">Read More</button>
+                        <button type="button" id="add5" onclick="addToCard5()" class="btn btn-warning">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -152,11 +172,15 @@
                     <img src="./images/goth.jpg" alt="Libri 'Game of Thrones' nga Arthur Conan Doyle">
                     <div class="padding card-title">
                         <h5>Game of Thrones</h5>
+                        <p>Autori: <i><u>Gorge R. R. Martin</u></i></p>
                     </div>
                     <div class="padding card-text">
-                        <p>Autori: <i><u>Gorge R. R. Martin</u></i></p>
-                        <a class="btn btn-outline-primary" href="">Read More</a>
-                        <a class="btn btn-warning" href="#">Add to cart</a>
+                        <h5>12.75 Eur</h5>
+                        <p class="quantity" >Sasia: </p> 
+                        <p class="quantity sas" id="sasia6">6</p> 
+                        <p class="quantity sold" id="soldText6"></p>
+                        <button type="button" class="btn btn-outline-primary" href="">Read More</button>
+                        <button type="button" onclick="addToCard6()" class="btn btn-warning">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -165,19 +189,27 @@
             <span class="infos">
                 <h5 class="title"><b>LIBRARIA ONLINE</b></h5>
                 <p>
-                    Rr.Bill Clinton, 28. <br>
+                    Rr.Bill Clinton, 28 <br>
                     Prishtine 10000 <br>
                     Nr.tel +383 49 750 875
                 </p>
             </span>
             <span class="social-medias">
-                <a title="Facebook" href=""><i class="fa fa-brands fa-facebook"></i></a>
-                <a title="Instagram" href=""><i class="fa fa-brands fa-instagram"></i></a>
-                <a title="Twitter" href=""><i class="fa fa-brands fa-twitter"></i></a>
+                <a class="link" title="Facebook" href="https://facebook.com">
+                    <i class="social-medias-logo fa fa-brands fa-facebook"></i>
+                    <a class="social-medias-text" href="https://facebook.com">Facebook</a>
+                </a>
+                <a class="link" title="Instagram" href="https://instagram.com">
+                    <i class="social-medias-logo fa fa-brands fa-instagram"></i>
+                    <a class="social-medias-text" href="https://instagram.com">Instagram</a>
+                </a>
+                <a class="link" title="Twitter" href="https://twitter.com">
+                    <i class="social-medias-logo fa fa-brands fa-twitter"></i>
+                    <a class="social-medias-text" href="https://twitter.com">Twitter</a>
+                </a>
             </span>
         </div>
     </div>
-
 
 </body>
 

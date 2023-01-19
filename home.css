@@ -1,0 +1,78 @@
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-inner .carousel-item ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.carousel-inner .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 37%;
+    left: 0;
+    right: 0;
+}
+.carousel-inner .carousel-caption h2{
+    color: #e58f00;
+    font-size: 42px;
+    font-family: Aachenn;
+}
+.carousel-inner .carousel-caption p{
+    color: black;
+    font-size: 25px;
+    font-family: Aachenn:
+}
+.servis{
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+.servis .servis-box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.servis .servis-box .servis-card{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px #E58470 ;
+    padding: 15 px 10 px ;
+}
+.servis .servis-box .servis-card i{
+    color: #E58470;
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: pointer ;
+}
+.pjesa-2{
+    padding: 50px 0 200px 0;
+}
+.pjesa-2 .pjesa-2-content h2{
+    font-size: 50.02px;
+    color: black;
+    font-family: Aachenn;
+    margin: auto;
+    width: 81%;
+}
+.pjesa-2 .pjesa-2-content p{
+    font-size: 33.33px;
+    color: black;
+    font-family: Aachenn;
+    width: 81%;
+    margin: auto;
+}

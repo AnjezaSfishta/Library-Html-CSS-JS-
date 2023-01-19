@@ -3,7 +3,6 @@ body{
     margin: 0px;
 }
 .nav{
-    /* display: flex; */
     align-items: center;
     background-color: white;
     box-shadow: 0px .5px 20px grey; 
@@ -51,7 +50,7 @@ ul > li >a {
     display: inline-block;
     width: 80vw;
     height: 10vh;
-    background-color: rgba(223, 223, 223,0.5);
+    background-color: aliceblue;
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0px 3px 20px grey;
@@ -175,11 +174,11 @@ img{
 .footer{
     width: 100%;
     position: relative;
-    top: 70vh;
+    top: 65vh;
     padding: 20px;
     margin: 0px;
     background-color: aliceblue;
-    box-shadow: 0px 0px 20px black; 
+    box-shadow: 0px 0.5px 20px grey; 
 }
 
 span{
@@ -196,13 +195,36 @@ span{
     display: block;
 }
 span.social-medias{
-    justify-content: space-around;
+    justify-content: space-between;
     float: left;
     padding-right: 300px;
     padding-top: 20px;
+
 }
 
 .social-medias > a{
     font-size: 40px;    
     align-items: center;
+}
+
+.social-medias > .social-medias-text {
+    font-size: 30px;
+    align-items: center;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: rgb(25, 115, 215);
+}
+
+.quantity {
+    display: inline-block;
+}
+
+.sas{
+    margin-right: 100px;
+}
+
+.sold{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
 }
