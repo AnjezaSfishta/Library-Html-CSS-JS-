@@ -15,5 +15,9 @@ $(()=>{
     $("input#btn4").on('click',()=>{
         $('p#par4').show(500);
     })
+    $("p#par5").hide()
+    $("input#btn5").on('click',()=>{
+        $('p#par5').show(500);
+    })
 })
 
