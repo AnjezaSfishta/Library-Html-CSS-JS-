@@ -119,3 +119,22 @@ form p a{
     background: #eaeaea;
     color:#555;
 }
+
+.inline-label{
+    
+    width: 100%;
+}
+
+.inline-label > .inline{
+    display: inline-block;
+}
+
+.linket{
+    text-align: right;
+    bottom: 20px;
+}
+
+
+.linket:hover{
+    text-decoration: underline;
+}
