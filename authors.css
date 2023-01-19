@@ -21,6 +21,14 @@ body{
 .icons{
     text-decoration: none;
 }
+.listat > a:hover{
+    display: inline-block;
+    color: black;
+    border-bottom: 2px solid blue;
+    text-decoration: none;
+    font-size: 23px;
+    transition: all 0.05s;
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -103,4 +111,13 @@ ul > li >a {
     list-style-type: disc;
     color: #FF3A3A;
     padding-bottom: 10px;
+}
+.footer1{
+    width: 100%;
+    position: relative;
+    top: 5vh;
+    padding: 20px;
+    margin: 0px;
+    background-color: aliceblue;
+    box-shadow: 0px 0.5px 20px grey; 
 }
