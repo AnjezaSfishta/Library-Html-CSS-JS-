@@ -135,7 +135,7 @@ ul > li >a {
     font-size: 50.02px;
     color: black;
     font-family: Aachenn;
-    margin: auto;
+    margin: 20px;
     width: 81%;
 }
 
@@ -144,7 +144,10 @@ ul > li >a {
     color: black;
     font-family: Aachenn;
     width: 81%;
-    margin: auto;
+    margin: 20px;
+}
+.pjesa-2 .pjesa-2-img{
+    margin: 20px;
 }
 
 .home{

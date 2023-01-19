@@ -1,6 +1,6 @@
 body{
-   background-image: url(images/library.png);
-   background: repeat;
+    padding: 0px;
+    margin: 0px;
 }
 .nav{
     /* display: flex; */
