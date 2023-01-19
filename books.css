@@ -14,6 +14,7 @@ body{
 }
 
 .listat > a:hover{
+    display: inline-block;
     color: black;
     border-bottom: 2px solid blue;
     text-decoration: none;
