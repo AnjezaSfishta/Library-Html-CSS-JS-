@@ -91,4 +91,17 @@ ul > li >a {
 
 }
 
-
+.menu-name {
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .menu {
+    padding-top: 20px;
+  }
+.active {
+    list-style-type: disc;
+    color: #FF3A3A;
+    padding-bottom: 10px;
+}
