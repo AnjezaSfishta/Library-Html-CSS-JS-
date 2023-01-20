@@ -13,17 +13,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Ballina</title>
   <script src="https://kit.fontawesome.com/c99733573c.js" crossorigin="anonymous"></script>
-  <link 
-  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
-  rel="stylesheet"  type='text/css'>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-  
+
   <link rel="stylesheet" href="path/to/fontawesome.min.css">
   <link href="//maxcdn.bootsreapcdn.com/font-awesome/4.1.0//css/font-awesome.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="hello.css">
+  <style>
+    #video {
+      position: relative;
+      left: 100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -66,7 +71,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./images/magazin1.jpg" class="d-block w-100" alt="foto-1">
-          <div class="carousel-caption d-none d-md-block">   
+          <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
@@ -77,8 +82,6 @@
         <div class="carousel-item">
           <img src="./images/rk2.jpg" class="d-block w-100" alt="foto-3">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p> representative placeholder content for the third slide.</p>
           </div>
         </div>
       </div>
@@ -124,148 +127,161 @@
         <div class="row">
           <div class="col-md-6">
             <div class="pjesa-2-img">
-              <video  width = "500" height = "500" controls autoplay>
-                <source src = "./images/librarivideo1.mp4" type ="video/ogg" />
+              <video width="500" height="500" controls autoplay>
+                <source src="./images/librarivideo1.mp4" type="video/ogg" />
                 Your browser does not support the <video> element.
-             </video>
+                </video>
             </div>
           </div>
           <div class="col-md-6">
             <div class="pjesa-2-content">
               <h2>Rreth nesh</h2>
-              <p> Libraria Online <abbr title="Emri i libraris">'13'</abbr> filloi punën më 10 dhjetor 2021. Sot në librarin tonë gjenden mbi 1000 tituj të
+              <p> Libraria Online <abbr title="Emri i libraris">'13'</abbr> filloi punën më 10 dhjetor 2021. Sot në
+                librarin tonë gjenden mbi 1000 tituj të
                 librave nga autorët tonë dhe të huaj.</p>
             </div>
           </div>
           <p style="font-size:30px;">Muzike perfekte per relaksim dhe studim</p>
           <div>
-            
+
             <audio controls autoplay width="200px" height="200px">
-                <source src = "./images/audio-1.mp3" type = "audio/ogg" />
-                Your browser does not support the <audio> element.>
+              <source src="./images/audio-1.mp3" type="audio/ogg" />
+              Your browser does not support the <audio> element.>
           </div>
           <div>
             <audio controls autoplay width="200px" height="200px">
-              <source src = "./images/audio-2.mp3" type = "audio/wav" />
+              <source src="./images/audio-2.mp3" type="audio/wav" />
               Your browser does not support the <audio> element.
+          </div>
+          <div class="col-md-6">
+            <div class="pjesa-2-img" id="video">
+              <video width="500" height="500" controls autoplay>
+                <source src="./images/v10044g50000c7qkisjc77u10f9gmhm0.MP4" type="video/ogg" />
+                Your browser does not support the <video> element.
+                </video>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="reviews">
+        <h1>Vlerësimet</h1>
+
+        <div class="review_box">
+          <div class="review_card">
+            <i class="fas fa-quote-right"></i>
+            <div class="card_top">
+              <img src="./images/pic-1.png">
+            </div>
+
+            <div class="card">
+              <h2>Leo Tahiri</h2>
+              <p>Më pëlqen të jem në gjendje të shfletoj libra (veçanërisht falë koleksioneve të rekomandimeve të
+                titujve të librarive individuale),
+                të porosis gjithçka me një hap .Dorëzimi është i përsosur, çmimi është vërtet transparent!</p>
+
+            </div>
+
+            <div class="review_icon">
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star " style="width:10%"></span>
+              <span class="fas fa-star " style="width:10%"></span>
+            </div>
+          </div>
+          <div class="review_card">
+            <i class="fas fa-quote-right"></i>
+            <div class="card_top">
+              <img src="./images/pic-2.png"><img>
+            </div>
+
+            <div class="card">
+              <h2>Sara Bajgora</h2>
+              <p>
+                Ju kishit një libër që unë nuk isha në gjendje ta gjeja <mark>"Game of Thrones"</mark> dhe e porosita
+                shpejt.
+                Libri im mbërriti brenda tre ditësh dhe unë u njoftova se kur u dërgua dhe kur kishte gjasa të
+                mbërrinte.
+                Jam shume i kenaqur me punen tuaj</p>
+
+            </div>
+
+            <div class="review_icon">
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+            </div>
+          </div>
+          <div class="review_card">
+            <i class="fas fa-quote-right"></i>
+            <div class="card_top">
+              <img src="./images/pic-3.png">
+            </div>
+
+            <div class="card">
+              <h2>Amar Halimi</h2>
+              <p>Kërkova për 2 libra nga ky dyqan dhe të dy ishin në dispozicion me një çmim të arsyeshëm.
+                Problemi i vetëm ishte se etiketa ngjitëse ishte ngjitur në pjesën e përparme të njërit prej librave -
+                megjithatë asnjë dëmtim i dukshëm</p>
+
+            </div>
+
+            <div class="review_icon">
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star " style="width:10%"></span>
+              <span class="fas fa-star " style="width:10%"></span>
+              <span class="fas fa-star " style="width:10%"></span>
+            </div>
+          </div>
+          <div class="review_card">
+            <i class="fas fa-quote-right"></i>
+            <div class="card_top">
+              <img src="./images/pic-4.png">
+            </div>
+
+            <div class="card">
+              <h2>Teuta Mustafa</h2>
+
+              <ol>
+                <li>Çmime të volitshme</li>
+                <li>Shërbim i shkëlqyeshëm</li>
+                <li>Tituj te rinjë</li>
+                <li>Rekomandime të titujve</li>
+                <li>Kthimi i porosise brenda 7 diteve</li>
+                <li>Mberritja e porosise ne kohe</li>
+              </ol>
+
+            </div>
+
+            <div class="review_icon">
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star checked" style="width:10%"></span>
+              <span class="fas fa-star " style="width:10%"></span>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section>
-    <div class="reviews">
-      <h1>Vlerësimet</h1>
-
-      <div class="review_box">
-          <div class="review_card">
-              <i class="fas fa-quote-right"></i>
-              <div class="card_top">
-                  <img src="./images/pic-1.png">
-              </div>
-              
-              <div class="card">
-                  <h2>Leo Tahiri</h2>
-                  <p>Më pëlqen të jem në gjendje të shfletoj libra  (veçanërisht falë koleksioneve të rekomandimeve të titujve të librarive individuale),
-                     të porosis gjithçka me një hap .Dorëzimi është i përsosur, çmimi është vërtet transparent!</p>
-              
-              </div>
-  
-              <div class="review_icon">
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star checked"style="width:10%"></span>
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star " style="width:10%"></span>
-                <span class="fas fa-star " style="width:10%"></span>
-            </div>
-          </div>
-          <div class="review_card">
-              <i class="fas fa-quote-right"></i>
-              <div class="card_top">
-                  <img src="./images/pic-2.png"><img>
-              </div>
-              
-              <div class="card">
-                  <h2>Sara Bajgora</h2>
-                  <p>
-                     Ju kishit një libër që unë nuk isha në gjendje ta gjeja <mark>"Game of Thrones"</mark> dhe e porosita shpejt. 
-                     Libri im mbërriti brenda tre ditësh dhe unë u njoftova se kur u dërgua dhe kur kishte gjasa të mbërrinte. 
-                     Jam shume i kenaqur me punen tuaj</p>
-              
-              </div>
-  
-              <div class="review_icon">
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star checked"style="width:10%"></span>
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star checked" style="width:10%"></span>
-            </div>
-          </div>
-           <div class="review_card">
-              <i class="fas fa-quote-right"></i>
-              <div class="card_top">
-                  <img src="./images/pic-3.png">
-              </div>
-              
-              <div class="card">
-                  <h2>Amar Halimi</h2>
-                  <p>Kërkova për 2 libra nga ky dyqan dhe të dy ishin në dispozicion me një çmim të arsyeshëm.
-                     Problemi i vetëm ishte se etiketa ngjitëse ishte ngjitur në pjesën e përparme të njërit prej librave - megjithatë asnjë dëmtim i dukshëm</p>
-              
-              </div>
-  
-              <div class="review_icon">
-                  <span class="fas fa-star checked" style="width:10%"></span>
-                  <span class="fas fa-star checked"style="width:10%"></span>
-                  <span class="fas fa-star " style="width:10%"></span>
-                  <span class="fas fa-star " style="width:10%"></span>
-                  <span class="fas fa-star " style="width:10%"></span>
-              </div>
-          </div>
-            <div class="review_card">
-              <i class="fas fa-quote-right"></i>
-              <div class="card_top">
-                  <img src="./images/pic-4.png">
-              </div>
-              
-              <div class="card">
-                  <h2>Teuta Mustafa</h2>
-                  
-                   <ol>
-                    <li>Çmime të volitshme</li>
-                    <li>Shërbim i shkëlqyeshëm</li>
-                    <li>Tituj te rinjë</li>
-                    <li>Rekomandime të titujve</li>
-                    <li>Kthimi i porosise brenda 7 diteve</li>
-                    <li>Mberritja e porosise ne kohe</li>
-                   </ol>
-              
-              </div>
-  
-              <div class="review_icon">
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star checked"style="width:10%"></span>
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star checked" style="width:10%"></span>
-                <span class="fas fa-star " style="width:10%"></span>
-            </div>
-          </div>
-      </div>
-    </div>
-    </section>
-      
 
 
-    <div style="height: 200px; width: 100%;" class="footer-2">
+
+    <div style="height: 250px; width: 100%;" class="footer-2">
       <span class="infos">
         <h5 class="title"><b>LIBRARIA ONLINE</b></h5>
-       
-          <addres>Rr.Bill Clinton, 28 <br>
+
+        <addres>Rr.Bill Clinton, 28 <br>
           Prishtine 10000 <br>
           Nr.tel +383 49 750 875<br>
-          Email:<a href="mailto:name@email.com">librariaonline@email.com</a>
+          Email:<a href="mailto:name@email.com">librariaonline@email.com</a> <br>
+          <a href="">Shërbimet</a>
         </addres>
-        
+
       </span>
       <span class="social-medias">
         <a class="link" title="Facebook" href="https://facebook.com">
