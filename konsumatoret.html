@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <div class="image">
-        <div class="form">
+    <div>
+        <div id="div-sherbimi" class="form">
             <h1 id="title">Shërbimet</h1>
             <form>
                 <div class="input">
@@ -51,8 +51,8 @@
 
                     <div class="linket">
                         <a href="home.html"
-                            style="text-align: center; text-decoration: none; color:rgb(244, 247, 252) ; ">Shko tek
-                            ballina!</a>
+                            style="text-align: center; text-decoration: none; color:rgb(244, 247, 252) ; ">Shko tekballina!
+                        </a>
 
                     </div>
 
@@ -66,12 +66,13 @@
 <script type="text/javascript">
     var today = new Date();
     var day = today.getDay();
-    var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-    var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+    var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"];
+    var date = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' - '+time;
-     
-    document.getElementById("displayDateTime").innerHTML = dateTime +" - " + daylist[day];
-   
-    </script>
+    var dateTime = date + ' - ' + time;
+
+    document.getElementById("displayDateTime").innerHTML = dateTime + " - " + daylist[day];
+
+</script>
+
 </html>
