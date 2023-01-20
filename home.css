@@ -46,6 +46,7 @@ ul{
 
 ul > li >a {
     text-decoration: none;
+    font-size: 23px;
 }
 .carousel-inner .carousel-item{
     width: 100%;
