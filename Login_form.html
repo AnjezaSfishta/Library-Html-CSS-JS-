@@ -5,6 +5,36 @@
     <title>Sing in and Sing up form </title>
     <link rel="stylesheet" href="Login.css">
     <script src="https://kit.fontawesome.com/2af1bf6a53.js" crossorigin="anonymous"></script>
+    <style>
+        label {
+          display:block;
+          border:solid 2px #894fe7;
+          width: 130px;
+          height:30px;
+          margin-top:10px;
+          color:#894fe7;
+          text-align:center;
+          line-height: 30px;
+          border-radius: 10px;
+          font-size: 15px;
+       }
+       
+       
+       input[type=checkbox] {
+          display: none;
+       }
+       
+       
+       input:checked + label:before {
+          content: "✓ ";
+       }
+       
+      
+       input:checked + label {
+          border: solid 2px purple;
+          color: purple;
+       }
+      </style>
 </head>
 
 <body>
@@ -39,11 +69,17 @@
                 <div class="submit">
                     <button type="submit" id="signup">Sign up</button>
                     <button type="submit" id="signin" class="disable">Sign in</button>
+                    
                 </div>
+                
+                <input id="remember" type="checkbox" name="remember" />
+                <label for="remember">Remember me!</label>
+                
+
                  
 
                 <div  class="linket">
-                     <a href="home.html" style="text-align: center; text-decoration: none; color:rgb(15, 16, 18) ; ">Shko tek ballina!</a>
+                     <a href="home.html" style="text-align: center; text-decoration: none; color:rgb(244, 247, 252) ; ">Shko tek ballina!</a>
                     
                 </div>
                  
