@@ -73,12 +73,12 @@ ul > li >a {
     right: 0;
 }
 .carousel-inner .carousel-caption h2{
-    color: #e58f00;
+    color: #2e00e5;
     font-size: 42px;
     font-family: Aachenn;
 }
 .carousel-inner .carousel-caption p{
-    color: black;
+    color: rgb(26, 51, 162);
     font-size: 25px;
     font-family: Aachenn;
 }
