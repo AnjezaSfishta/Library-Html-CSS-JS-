@@ -228,3 +228,8 @@ span.social-medias{
     font-size: 16px;
     font-weight: bold;
 }
+#displayDateTime{
+    position: relative;
+    left: 60vh;
+    top: 5vh;
+}

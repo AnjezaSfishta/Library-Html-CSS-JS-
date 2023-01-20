@@ -176,3 +176,8 @@ span.social-medias{
     text-decoration: none;
     color: rgb(25, 115, 215);
 }
+#displayDateTime{
+    position: relative;
+    left: 60vh;
+    top: 5vh;
+}

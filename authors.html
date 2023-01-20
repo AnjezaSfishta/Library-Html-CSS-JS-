@@ -46,8 +46,8 @@
     <div class="container-fluid">
         <div class="row nav">
             <div class="name col-lg-3">
-                <h5>Libraria Online</h5>
-              </div>
+                <h5>Libraria Online</h5> <br>
+            </div>
             <div class="icons col-lg-9">
                 <ul style="list-style: none;">
                     <li class="listat">
@@ -171,15 +171,15 @@
                 ishte një shkrimtar dhe mjek britanik.
                 Ai krijoi personazhin Sherlock Holmes në 1887 për A Study in Scarlet, i pari nga katër romanet dhe
                 pesëdhjetë e gjashtë tregime të shkurtra për Holmes dhe Dr. Watson. Historitë e Sherlock Holmes janë
-<a href="sherbimet.html">Sherbimet</a>
-            </p>                piketa në
-                fusha e trillimeve kriminale.
-                Doyle ishte një shkrimtar produktiv; përveç tregimeve të Holmes, veprat e tij përfshijnë fantazi dhe
-                fantashkencë tregime për Profesor Challenger dhe histori humoristike për ushtarin Napoleonik Brigadier
-                Gerard,
-                si dhe drama, romanca, poezi, romane jo-fiction dhe historike. Një nga të shkurtrat e hershme të Doyle
-                tregimet, "Deklarata e J. Habakuk Jephson" (1884), ndihmuan në popullarizimin e misterit të Mary
-                Celeste.
+                <a href="sherbimet.html">Sherbimet</a>
+            </p> piketa në
+            fusha e trillimeve kriminale.
+            Doyle ishte një shkrimtar produktiv; përveç tregimeve të Holmes, veprat e tij përfshijnë fantazi dhe
+            fantashkencë tregime për Profesor Challenger dhe histori humoristike për ushtarin Napoleonik Brigadier
+            Gerard,
+            si dhe drama, romanca, poezi, romane jo-fiction dhe historike. Një nga të shkurtrat e hershme të Doyle
+            tregimet, "Deklarata e J. Habakuk Jephson" (1884), ndihmuan në popullarizimin e misterit të Mary
+            Celeste.
             </p>
             <p id="par4" style="margin: 5px; padding: 5px;">
                 Ndërsa jetonte në Southsea, vendpushimi bregdetar i Portsmouth, Doyle luajti futboll si portier për
@@ -228,6 +228,7 @@
                 <a class="sherbimet" href="konsumatoret.html">Shërbimet</a>
         </addres> 
         </span>
+        
         <span class="social-medias">
             <a class="link" title="Facebook" href="https://facebook.com">
                 <i class="social-medias-logo fa fa-brands fa-facebook"></i>
@@ -242,9 +243,24 @@
                 <a class="social-medias-text" href="https://twitter.com">Twitter</a>
             </a>
         </span>
+        <span>
+            <p id="displayDateTime"></p>
+        </span>
     </div>
     </div>
 
 </body>
+
+<script type="text/javascript">
+    var today = new Date();
+    var day = today.getDay();
+    var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+    var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' - '+time;
+     
+    document.getElementById("displayDateTime").innerHTML = dateTime +" - " + daylist[day];
+   
+    </script>
 
 </html>

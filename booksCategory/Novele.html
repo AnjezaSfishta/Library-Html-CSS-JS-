@@ -88,7 +88,9 @@
                     </div>
                     <div class="padding card-text">
                         <h5>13.49 Eur</h5>
-                        <p class="quantity" >Sasia: </p> <p class="quantity sas" id="sasia1">11</p>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas" id="sasia1">11</p>
+                        <p class="quantity sold" id="soldText1"></p>
                         <button type="button" onclick="addToCard1()" class="btn btn-warning" href="#">Shto në shportë</button>
                     </div>
                 </div>
@@ -102,8 +104,10 @@
                     </div>
                     <div class="padding card-text">
                         <h5>20.99 Eur</h5>
-                        <p class="quantity" >Sasia: </p> <p class="quantity sas" id="sasia1">6</p>
-                        <button type="button" onclick="addToCard1()" class="btn btn-warning" href="#">Shto në shportë</button>
+                        <p class="quantity" >Sasia: </p>
+                        <p class="quantity sas" id="sasia2">6</p>
+                        <p class="quantity sold" id="soldText2"></p>
+                        <button type="button" onclick="addToCard2()" class="btn btn-warning" href="#">Shto në shportë</button>
                     </div>
                 </div>
             </div>
@@ -132,9 +136,22 @@
                     <a class="social-medias-text" href="https://twitter.com">  Twitter</a>
                 </a>
             </span>
+            <span>
+                <p id="displayDateTime"></p>
+            </span>
         </div>
     </div>
 
 </body>
-
+<script type="text/javascript">
+    var today = new Date();
+    var day = today.getDay();
+    var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+    var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' - '+time;
+     
+    document.getElementById("displayDateTime").innerHTML = dateTime +" - " + daylist[day];
+   
+    </script>
 </html>
