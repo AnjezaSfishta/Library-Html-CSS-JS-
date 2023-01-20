@@ -46,10 +46,10 @@ ul {
 ul>li>a {
     text-decoration: none;
 }
-.footer {
+.footer1 {
     width: 100%;
     position: relative;
-    top: 65vh;
+    top: 10vh;
     padding: 20px;
     margin: 0px;
     background-color: aliceblue;
