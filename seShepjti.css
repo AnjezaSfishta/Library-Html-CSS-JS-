@@ -1,34 +1,39 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.nav{
+
+.nav {
     align-items: center;
     background-color: white;
-    box-shadow: 0px .5px 20px grey; 
+    box-shadow: 0px .5px 20px grey;
     height: 10vh;
     position: fixed;
     width: 100%;
     z-index: 2;
     background-color: aliceblue;
 }
-.listat > a:hover{
+
+.listat>a:hover {
     color: black;
     border-bottom: 2px solid blue;
     text-decoration: none;
     font-size: 23px;
     transition: all 0.05s;
 }
-.name{
+
+.name {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 
 }
-.icons{
+
+.icons {
     text-decoration: none;
 }
-ul{
+
+ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -38,45 +43,35 @@ ul{
     top: 5px;
 }
 
-ul > li >a {
+ul>li>a {
     text-decoration: none;
 }
-
-table{
-    border: 1px solid grey;
-    box-shadow: 0px 0.5px 20px grey;
-    width: 50%;
-    position: relative;
-    top: 50vh;
-    left: 25%;
-}
-tr,td{
-    border: 1px solid black;
-}
-.footer{
+.footer {
     width: 100%;
     position: relative;
     top: 65vh;
     padding: 20px;
     margin: 0px;
     background-color: aliceblue;
-    box-shadow: 0px 0.5px 20px grey; 
+    box-shadow: 0px 0.5px 20px grey;
 }
 
-span{
+span {
     display: inline-flex;
     align-items: center;
     width: 50%;
     position: relative;
     top: 25%;
-    height: fit-content; 
+    height: fit-content;
     float: left;
 }
-.infos{
+
+.infos {
     padding: 0px 100px;
     display: block;
 }
-span.social-medias{
+
+span.social-medias {
     justify-content: space-between;
     float: left;
     padding-right: 300px;
@@ -84,12 +79,12 @@ span.social-medias{
 
 }
 
-.social-medias > a{
-    font-size: 40px;    
+.social-medias>a {
+    font-size: 40px;
     align-items: center;
 }
 
-.social-medias > .social-medias-text {
+.social-medias>.social-medias-text {
     font-size: 30px;
     align-items: center;
     margin: 0px 15px;
